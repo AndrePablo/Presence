@@ -1,4 +1,5 @@
 # Welcome to Using Presence
+![alt text](https://github.com/Ashwins9001/Presence-App/blob/main/img/front-end.PNG)
 Are you running late to work while waiting to call your kid in sick to school? With Presence you can mark your child's absence easily and hands-free! Presence is an Amazon Alexa application that uses a voice-activated system to record your child's sick days. Never be late or annoyed again with Presence. 
 
 For school administration staff, Presence offers an automated solution to recording absences that minimizes school resources by streamlining the attendance process. We all know how important it is to make sure every child is safe and missing school for a good reason.

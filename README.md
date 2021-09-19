@@ -13,6 +13,8 @@ For school administration staff, Presence offers an automated solution to record
 # Application Overview
 Presence uses a heroku-deployed API and MongoDB Atlas Cluster to create a mock student records system. Changes are made to the student records system through the Alexa Skills Develpoment Kit (SDK). The Alexa SDK is configured by VoiceFlow for easier development and involves retrieving student information from voice commands to execute HTTP POST requests to update the database. 
 
+The API is built using Express and Node, and the front-end displayed to school administrators is created with React.
+
 ![alt text](https://github.com/Ashwins9001/Presence-App/blob/main/img/VF-process.PNG)
 Shown above is the VoiceFlow configuration
 

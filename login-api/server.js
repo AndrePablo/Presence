@@ -19,7 +19,7 @@ const schedule = [
     }
 ]
 
-//Routes
+//Router to navigate to each path route
 
 app.get('/schedule', authenticateToken, (req, res) => {
     res.json(schedule.filter(sched => sched.name == req.user.name))

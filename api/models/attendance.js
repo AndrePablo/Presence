@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-//Attendance Schema
+//Attendance Schema student id and home room
 const attendanceSchema = new mongoose.Schema({
     student_id:{
         type:Number,

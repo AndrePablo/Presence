@@ -4,22 +4,18 @@ Are you running late to work while waiting to call your kid in sick to school? W
 
 For school administration staff, Presence offers an automated solution to recording absences that minimizes school resources by streamlining the attendance process. We all know how important it is to make sure every child is safe and missing school for a good reason. But we also know how great it feels to have less work to do. School staff can relax, sit back and let Presence handle the busy work.
 
-<p align="center">
-  <img src="https://github.com/Ashwins9001/Presence-App/blob/main/img/parent-kid.png" width="280" />
-  <img src="https://github.com/Ashwins9001/Presence-App/blob/main/img/school.jpg" width="350" /> 
-</p>
-
 
 # Application Overview
 Presence uses a heroku-deployed API and MongoDB Atlas Cluster to create a mock student records system. Changes are made to the student records system through the Alexa Skills Develpoment Kit (SDK). The Alexa SDK is configured by VoiceFlow for easier development and involves retrieving student information from voice commands to execute HTTP POST requests to update the database. 
 
 The API is built using Express and Node, and the front-end displayed to school administrators is created with React.
 
-![alt text](https://github.com/Ashwins9001/Presence-App/blob/main/img/VF-process.PNG)
+![image](https://user-images.githubusercontent.com/87501612/163266250-c7158840-68a9-4043-b0a7-b9f4d89f45ae.png)
+
 Shown above is the VoiceFlow configuration
 
 
-![alt text](https://github.com/Ashwins9001/Presence-App/blob/main/img/Alexa-workflow.PNG)
+![image](https://user-images.githubusercontent.com/87501612/163266391-15a5ba81-42d8-46ac-b0c7-d1cff756f675.png)
 Shown above is a demonstration on the Alexa SDK test suite. If an Alexa-powered device such as an Amazon Echo is available, the application can run on that as well. 
 
 ## Security
